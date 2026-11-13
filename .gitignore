@@ -1,0 +1,39 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Python and Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Retail datasets and generated artifacts
+data/
+outputs/
+*.xlsx
+*.xls
+*.csv
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Private documents
+*.pdf
+*.docx
+*.doc
+
+# Local configuration
+.vscode/
+.DS_Store
+Thumbs.db
